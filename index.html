@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="index.css" type="text/css" async>
+    <script src="index.js" type="text/javascript" async></script>
+    <!-- <meta  -->
+  </head>
+  <body>
+    <div id="mapper">
+      <h1>Map:</h1>
+      <div>
+        <label>One input (comma separated) <input id="mapAIn"></label><br>
+        OR<br>
+        <label>Value: <input class="input"></label><br>
+        <label>Range 1: <input class="input"></label>
+        <label><input class="input"></label><br>
+        <label>Range 2: <input class="input"></label>
+        <label><input class="input"></label>
+        <button id="mapbtn">Calculate</button>
+        <br><label>Result: <input class="result"></label>
+      </div>
+    </div>
+    <div id="bitand">
+      <h1>Bitwise AND:</h1>
+      <div>
+        <label><input class="input"></label>
+        <label><input class="input"></label>
+        <button id="babtn">Calculate</button>
+        <br><label>Dec: <input class="result"> Bin: <input class="result"></label>        
+      </div>
+    </div>
+    <div id="bitor">
+      <h1>Bitwise OR:</h1>
+      <div>
+        <label><input class="input"></label>
+        <label><input class="input"></label>
+        <button id="bobtn">Calculate</button>
+        <br><label>Dec: <input class="result"> Bin: <input class="result"></label>        
+      </div>
+    </div>
+    <div id="reference">
+      <h3>Reference:</h3>
+      <table>
+        <tr>
+          <td id="leftcol">
+            <p>
+              Acceleration (a) = &Delta;velocity / &Delta;time<br>
+              Speed = distance / time<br>
+              Force (F) = mass &times; acceleration<br>
+              <br>
+              Watts: W (power); Ohms: I (resistance)<br>
+              Amperes: A (current); Volts: V (electrical potential)<br>
+              Coulombs: Q (charge); Farads: F (capacitance)<br>
+              Watts = Amperage &times; Voltage<br>
+              Voltage = Amperage &times; Ohms<br>
+              Capacitance = charge &times; voltage<br>
+              <br>
+              Gravity (G): 9.80665 <sup>m</sup>&frasl;<sub>s<sup>2</sup></sub> or 32.1740485564 <sup>ft</sup>&frasl;<sub>s<sup>2</sup></sub><br>
+              Kinetic Energy (KE) = &half; &times; mass &times; velocity<sup>2</sup><br>
+              GPE = mass &times; gravity &times; height<br>
+              Momentum (P) = mass &times; velocity<br>
+              Work = Force / distance<br>
+            </p>
+          </td>
+          <td>
+            <p>
+                Derivatives (the slope at a point, or the slope of slope, etc):<br>
+                Any constant = 0<br>
+                Any simple slope (2x, 6x, etc) = coefficient<br>
+                f + g = f' + g' and f - g = f' - g'<br>
+                f &times; g = f &times; g' + f' &times; g<br> 
+                f / g = ((f' &times; g) − (g' &times; f))/g<sup>2</sup><br>
+                1/f = -f' / f<sup>2</sup><br>
+                x<sup>n</sup> = nx<sup>n-1</sup><br>
+                a<sup>x</sup> = ln(a) &times; a<sup>x</sup>, (therefore) <em>e</em><sup>x</sup> = <em>e</em><sup>x</sup><br>
+                log<sub>a</sub>(x) = 1 / (x &centerdot; ln(a))<br> 
+                f(g(x)) = f'(g(x)) &times; g'(x) (chain rule)<br>
+                &Sqrt;x: (x<sup>&half;</sup>) = (&half;)x<sup>-&half;</sup><br>
+                sin(x) = cos(x)<br>
+                cos(x) = -sin(x)<br>
+                tan(x) = sec<sup>2</sup>(x)<br>
+                sin<sup>-1</sup>(x) = 1 / √(1 − x<sup>2</sup>)<br>
+                cos<sup>-1</sup>(x)	= −1 / √(1 − x<sup>2</sup>)<br>
+                tan<sup>-1</sup>(x) =	1 / (1 + x<sup>2</sup>)<br>
+                <br>
+                Electron shell fill order:<br>
+                1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p, 8s<br>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
