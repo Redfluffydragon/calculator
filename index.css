@@ -9,7 +9,7 @@ body {
 .result {
   width: 65px;
   margin-top: 4px;
-  background: rgba(0, 255, 0, .3);
+  background: rgba(0, 255, 0, .1);
 }
 
 input {
@@ -27,6 +27,10 @@ button {
   margin: 0;
 }
 
+button:hover {
+  background: rgb(170, 170, 170);
+}
+
 #reference h3 {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -42,13 +46,14 @@ button {
 }
 
 #reference td {
-  padding: 3px;
+  padding: 6px;
+  vertical-align: top;
 }
 
 #reference {
   position: absolute;
   top: 5px;
-  left: 32vw;
+  left: 30vw;
   border: 1px solid lightgray;
   padding: 12px;
   border-radius: 7px;
@@ -56,12 +61,10 @@ button {
   margin-right: 7px;
 }
 
-#shelltable td {
-  margin: 0;
-  padding: 0;
-}
-
 #scicalc {
+  position: absolute;
+  left: 30vw;
+  bottom: 7px;
   margin-top: 10px;
   border: .5px solid gray;
   border-radius: 5px;
@@ -70,8 +73,16 @@ button {
 }
 
 #calcbtns button {
-  /* padding: 2px 6px; */
   width: 30px;
   height: 30px;
   border-radius: 10px;
+}
+
+.basicOp {
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
